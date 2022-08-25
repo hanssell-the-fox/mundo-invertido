@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mundo Invertido | Semana Front-end</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body>
+  <body
+    class="light-theme"
+    aria-label="O site está utilizando o tema claro"
+    role="body"
+  >
     <header aria-label="Cabeçalho da página">
       <audio autoplay>
         <source
@@ -15,13 +21,14 @@
         />
       </audio>
 
-      <div>
+      <div class="header-content">
         <img
+          class="invert-element"
           src="./assets/images/banner/logo.svg"
           alt="Imagem principal Mundo Invertido. Semana Frontend DIO."
         />
 
-        <p role="text">
+        <p class="invert-element" role="text">
           Uma jornada para quem não tem medo do desconhecido. O caminho para o
           Mundo invertido é incerto, repleto de obstáculos e perigos. Porém, a
           recompensa é grande: salvar Hawkings e o mundo todo das garras de
@@ -29,8 +36,10 @@
           no Mundo Invertido!
         </p>
 
-        <button>Inverter Mundos</button>
+        <button class="switch-theme-button">Inverter Mundos</button>
       </div>
+
+      <div id="top-characters" class="world-characters"></div>
     </header>
   </body>
 </html>
