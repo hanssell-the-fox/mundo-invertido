@@ -7,6 +7,7 @@
     <title>Mundo Invertido | Semana Front-end</title>
 
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/main.js" defer></script>
   </head>
   <body
     class="light-theme"
@@ -14,7 +15,7 @@
     role="body"
   >
     <header aria-label="Cabeçalho da página">
-      <audio autoplay>
+      <audio id="music">
         <source
           src="./assets/sounds/normal-world.mpeg"
           aria-details="Audio temático do site"
@@ -36,7 +37,7 @@
           no Mundo Invertido!
         </p>
 
-        <button class="switch-theme-button">Inverter Mundos</button>
+        <button class="switch-theme-button" onclick="switchTheme()">Inverter Mundos</button>
       </div>
 
       <div id="top-characters" class="world-characters"></div>
