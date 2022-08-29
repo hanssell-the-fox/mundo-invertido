@@ -4,7 +4,7 @@
 
 Uma jornada para quem não tem medo do desconhecido. O caminho para o Mundo Invertido é incerto, repleto de obstáculos e perigos. Porém, a recompensa é grande: salvar Hawkings e o mundo todo das garras de Vecna. Você está preparado(a)?
 
-**[Quero ajudar! (versão do projeto online)](https://hanssell-the-fox.github.io/mundo-invertido/)**
+**<a href="https://hanssell-the-fox.github.io/mundo-invertido/" target="_blank">Quero ajudar! (versão do projeto online)</a>**
 
 ```
   Desenvolvido durante a SEMANA FRONTEND, realizada pela Digital Innovation One
@@ -39,4 +39,4 @@ Uma jornada para quem não tem medo do desconhecido. O caminho para o Mundo Inve
 
 ### :fox_face: Gostou do projeto?
 
-Inscreva-se na [Digital Innovation One](https://dio.me/sign-up?ref=XLN0X9AEHJ) e fique por dentro das novidades! É gratuito!
+Inscreva-se na <a href="https://dio.me/sign-up?ref=XLN0X9AEHJ" target="_blank">Digital Innovation One</a> e fique por dentro das novidades! É gratuito!
