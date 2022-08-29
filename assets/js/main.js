@@ -1,4 +1,3 @@
-import { app } from "./firebase/app.js";
 import { subscribeToHellfireClub } from "./firebase/subscription.js";
 
 const txtName = document.getElementById("txtName");
@@ -24,7 +23,7 @@ window.addEventListener("click", function () {
   audio.volume = 0.2;
 });
 
-function switchTheme() {
+document.getElementById("theme-switcher").addEventListener("click", () => {
   const { body } = document;
 
   body.classList.toggle("dark-theme");
@@ -38,4 +37,4 @@ function switchTheme() {
   audio.setAttribute("src", `assets/sounds/${music}`);
   audio.play();
   audio.volume = 0.2;
-}
+});
